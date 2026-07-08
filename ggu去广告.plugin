@@ -1,0 +1,17 @@
+#!name=HAR去广告重写
+#!desc=从 HAR 自动识别 4 条重写候选；生成时间 2026-07-08 06:35:07
+#!author=HAR规则工厂
+#!category=HAR Auto AdBlock
+#!tag=去广告,HAR,Rewrite
+
+[General]
+force-http-engine-hosts = %APPEND% *.iguming.net,*.qq.com,*.servicewechat.com
+
+[URL Rewrite]
+^https?:\/\/api\.datanexus\.qq\.com\/youshu\/api\/report(?:\?.*)?$ reject-dict
+^https?:\/\/slardar-gateway\.iguming\.net\/report(?:\?.*)?$ reject-200
+^https?:\/\/sh\.servicewechat\.com\/ob\/sdkmonitor(?:\?.*)?$ reject-dict
+^https?:\/\/pr-cn\.map\.qq\.com\/ditusdk\/monitor(?:\?.*)?$ reject-img
+
+[MITM]
+hostname = %APPEND% *.iguming.net,*.qq.com,*.servicewechat.com
