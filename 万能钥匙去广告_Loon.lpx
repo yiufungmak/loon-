@@ -1,16 +1,16 @@
 #!name=HAR去广告重写
-#!desc=从 HAR 自动识别 6 条重写候选；生成时间 2026-07-08 12:12:17
+#!desc=从 HAR 自动识别 6 条重写候选；生成时间 2026-07-09 05:27:21
 #!author=Loon工具箱
 #!category=Loon Toolbox
 #!tag=去广告,HAR,Rewrite
 
 [URL Rewrite]
-^https?:\/\/apmplus\.volces\.com\/monitor\/collect\/c\/session(?:\?.*)?$ reject-dict
-^https?:\/\/track-config\.y5kfpt\.com\/openApi\/trackShipmaster\/v1\/sdkConfigInfo\/fetchConfig(?:\?.*)?$ reject-dict
-^https?:\/\/track-gateway\.y5kfpt\.com\/api\/oceantunnel\/v1\/trackData\/collect(?:\?.*)?$ reject
 ^https?:\/\/c\.wkanx\.com\/trace\/adx\/v2(?:\?.*)?$ reject
-^https?:\/\/track-config\.y5kfpt\.com\/openApi\/trackShipmaster\/v1\/sdkConfigInfo\/fetchConfig(?:\?.*)?$ reject
-^https?:\/\/youku-dsp\.youku\.com\/ksrta\/track(?:\?.*)?$ reject
+^https?:\/\/adx-ad-prod\.wkanx\.com\/v1\/api\/sdk_config(?:\?.*)?$ reject-dict
+^https?:\/\/adx-ad-prod\.wkanx\.com\/v1\/api\/fs_config(?:\?.*)?$ reject-dict
+^https?:\/\/creative\.mergex\.cn\/material\/[^\/]+(?:\?.*)?$ reject-img
+^https?:\/\/adx-ad-prod\.wkanx\.com\/v1\/api\/fs_config(?:\?.*)?$ reject
+^https?:\/\/apmplus\.volces\.com\/monitor\/collect\/c\/session(?:\?.*)?$ reject-dict
 
 [MITM]
-hostname = %APPEND% *.volces.com,*.wkanx.com,*.youku.com
+hostname = %APPEND% adx-ad-prod.wkanx.com,apmplus.volces.com,c.wkanx.com,creative.mergex.cn
