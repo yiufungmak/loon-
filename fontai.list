@@ -1,0 +1,21 @@
+# Proxy Toolbox · Loon 分流规则
+[Rule]
+DOMAIN-SUFFIX,bid.adbiding.com,DIRECT
+DOMAIN-SUFFIX,cloud.fotile.com,DIRECT
+DOMAIN-SUFFIX,119.29.29.98,DIRECT
+DOMAIN-SUFFIX,ab.growingio.com,DIRECT
+DOMAIN-SUFFIX,api-1.eye4.cn,DIRECT
+DOMAIN-SUFFIX,api.fotile.com,DIRECT
+DOMAIN-SUFFIX,dispatcher.is.autonavi.com,DIRECT
+DOMAIN-SUFFIX,dsp.cdn.gameley.com,DIRECT
+DOMAIN-SUFFIX,fp-it.fengkongcloud.com,DIRECT
+DOMAIN-SUFFIX,hsadmin.fotile.com,DIRECT
+DOMAIN-SUFFIX,hsimage.fotile.com,DIRECT
+DOMAIN-SUFFIX,image.uczzd.cn,DIRECT
+DOMAIN-SUFFIX,ios.bugly.qq.com,DIRECT
+DOMAIN-SUFFIX,napi.growingio.com,DIRECT
+DOMAIN-SUFFIX,oimagea5.ydstatic.com,DIRECT
+DOMAIN-SUFFIX,paydns.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,szextshort.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,szminorshort.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,u-aix-files.oss-cn-zhangjiakou.aliyuncs.com,DIRECT
