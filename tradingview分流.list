@@ -7,8 +7,6 @@ DOMAIN,charts-storage.tradingview.com,手动选择
 DOMAIN,pushstream.tradingview.com,手动选择
 DOMAIN,data.tradingview.com,手动选择
 DOMAIN,pricealerts.tradingview.com,手动选择
-DOMAIN,analytics.google.com,REJECT
-DOMAIN,telemetry.tradingview.com,REJECT
 DOMAIN,app-analytics-services.com,手动选择
 DOMAIN,mobile-sp.tradingview.com,手动选择
 DOMAIN,notifications.tradingview.com,手动选择
