@@ -1,0 +1,23 @@
+# Loon工具箱 - Loon 分流规则
+# 共 20 条
+
+DOMAIN,cn.tradingview.com,手动选择
+DOMAIN,s3-symbol-logo.tradingview.com,手动选择
+DOMAIN,charts-storage.tradingview.com,手动选择
+DOMAIN,pushstream.tradingview.com,手动选择
+DOMAIN,data.tradingview.com,手动选择
+DOMAIN,pricealerts.tradingview.com,手动选择
+DOMAIN,analytics.google.com,REJECT
+DOMAIN,telemetry.tradingview.com,REJECT
+DOMAIN,app-analytics-services.com,手动选择
+DOMAIN,mobile-sp.tradingview.com,手动选择
+DOMAIN,notifications.tradingview.com,手动选择
+DOMAIN,scanner.tradingview.com,手动选择
+DOMAIN,static.tradingview.com,手动选择
+DOMAIN,s3.tradingview.com,手动选择
+DOMAIN,economic-calendar.tradingview.com,手动选择
+DOMAIN,firebaselogging-pa.googleapis.com,手动选择
+DOMAIN,mobile-data.tradingview.com,手动选择
+DOMAIN,pine-facade.tradingview.com,手动选择
+DOMAIN,quotes.tradingview.com,手动选择
+DOMAIN,www.google.com.my,手动选择
